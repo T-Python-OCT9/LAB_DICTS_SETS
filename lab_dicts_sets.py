@@ -38,12 +38,10 @@ Unilever = {"Saudi Arabia", "Kuwait", "Iraq",
             "Morocco", "Yemen", "United Emirates"}
 print(Unilever.union(Nestle))
 print(Unilever.intersection(Nestle))
-print(Unilever.difference(Nestle))
+print(Nestle.difference(Unilever))
 union_value = {x for x in Unilever | Nestle}
 print(union_value)
 intersection_value = {x for x in Unilever & Nestle}
 print(intersection_value)
-difference_value = {x for x in Unilever - Nestle}
+difference_value = {x for x in Nestle - Unilever}
 print(difference_value)
-
-
