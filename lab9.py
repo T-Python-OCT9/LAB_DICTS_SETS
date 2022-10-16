@@ -41,32 +41,21 @@ nestle_products = {"KitKat" : "34,456,432 US Dollars", "Nescafe" : "14,106,132 U
 
 unilever_products = {"Lipton" : "23,456,000 US Dollars", "Breyers" : "1,235,891 US Dollars", "HellManns" : "17,241,412 US Dollars", "Marmite" : "11,715,324 US Dollars"}
 
-nestle_total_sales = 0
-for n in nestle_products:
-    print("The number of " + n + " Products is: " + nestle_products[n])
-    nestle_total_sales = nestle_total_sales + int(nestle_products[n])
+Nestle_sales_list = {34456432 , 14106132 , 9960312, 44506003 }
+print(" The highest selling product in Nestle is : ")
 
-unilever_total_sales = 0
-for u in unilever_products:
-    print("The number of " + u + " Products is: " + unilever_products[u])
-    unilever_total_sales = unilever_total_sales + int(unilever_products[u])
+def printing_the_top_nes_sales():
+    for top in Nestle_sales_list:
+        if top == max(Nestle_sales_list):
+            print(top,"US Dollars")
 
-if len(nestle_products) > len(unilever_products):
-    print("Nestle has more products than Unilever")
-elif len(nestle_products) < len(unilever_products):
-    print("Unilever has more products than Nestle")
-else:
-    print("They are the same nubmer of products")
+Unilever_sales_list = { 23456000, 1235891, 17241412, 11715324 }
+print(" The highest selling product in Unilever is: ")
 
-
-def the_top_seller():
-    if nestle_total_sales > unilever_total_sales:
-        print("Nestle has the top sales total by: " + nestle_total_sales + " nubmer of sales")
-    else:
-        print("Unilever has the top sales total by: " + unilever_total_sales + " nubmer of sales")
-
-the_top_seller()
-
+def printing_the_top_uni_sales():
+    for top in Unilever_sales_list:
+        if top == max(Unilever_sales_list):
+            print(top, "US Dollars")
 
 
 nestle_countries = {"Saudi Arabia", "Oman", "Kuwait", "Egypt", "Jordan", "Sudan"}
@@ -74,18 +63,27 @@ unilever_countries = {"Saudi Arabia", "Kuwait", "Iraq", "Morocco", "Yemen", "Uni
 
 uni_add_nes_countries = nestle_countries.union(unilever_countries)
 
-for i in uni_add_nes_countries:
-    print("this is all the cities Unilever & Nestle sell their products in:- ")
-    print("-" + i)
+def printing_the_uni():
+    for i in uni_add_nes_countries:
+        print("-" + i)
 
 
 uni_and_nes_countries = nestle_countries.intersection(unilever_countries)
-for x in uni_and_nes_countries:
-    print("this is the countries that both Nestle & Unilver sell in common:-")
-    print("-" + x)
+def printing_the_intersec():
+    for x in uni_and_nes_countries:
+        print("-" + x)
 
 nes_diff_uni_countries = nestle_countries.difference(unilever_countries)
 
-for y in nes_diff_uni_countries:
-    print("this is the cities Nestle sells in , but Unilver doens't sell in:-")
-    print("-" + y)
+def printing_the_diff():
+    for y in nes_diff_uni_countries:
+        print("-" + y)
+
+printing_the_top_nes_sales()
+printing_the_top_uni_sales()
+print("this is all the cities Unilever & Nestle sell their products in:- ")
+printing_the_uni()
+print("this is the countries that both Nestle & Unilver sell in common:-")
+printing_the_intersec()
+print("this is the cities Nestle sells in , but Unilver doens't sell in:-")
+printing_the_diff()
