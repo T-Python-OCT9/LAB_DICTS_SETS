@@ -46,6 +46,5 @@ for m in my_set_Nestle - my_set_Uliever:
  
 
 
-nestle_Countrys = { "Nestle" : "Saudi Arabia" "Oman" "Kuwait" "Egypt" "Jordan" "Sudan"}
-unilever_Countrys = { "Unilever" : "Saudi Arabia" "Kuwait" "Iraq" "Morocco" "Yemen" "United Emirates"}
+
 
