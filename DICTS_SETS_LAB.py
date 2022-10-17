@@ -40,7 +40,7 @@ def top_silling_for_nestle():
         if sales > max_product_price:
             max_product_price = sales
             max_product_name = product
-            print(f"The Top Saling Product For Nestle is: {max_product_name}\nSALES:{max_product_price}")
+    print(f"The Top Saling Product For Nestle is: {max_product_name}\nSALES:{max_product_price}")
 
 def top_silling_for_unilever():
     max_product_price = 0
@@ -49,7 +49,7 @@ def top_silling_for_unilever():
         if sales > max_product_price:
             max_product_price = sales
             max_product_name = product
-            print(f"The Top Saling Product For Nestle is: {max_product_name}\nSALES:{max_product_price}")
+    print(f"The Top Saling Product For Nestle is: {max_product_name}\nSALES:{max_product_price}")
 
 
 nestle_data()
@@ -62,7 +62,7 @@ print(unilever_cities | nestle_citite)  # print all the cities Unilever & Nestle
 
 print(unilever_cities & nestle_citite)  # print the cities that both Nestle & Unilver sell in common.
 
-print(nestle_citite - unilever_cities ) # print the cities Nestle sells in , but Unilver doens't sell in.
+print(nestle_citite - unilever_cities) # print the cities Nestle sells in , but Unilver doens't sell in.
 
 
 
