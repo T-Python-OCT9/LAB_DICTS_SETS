@@ -1,22 +1,22 @@
-# LAB_DICTS_SETS
+# LABDICTSSETS
 
 ### Kate, Dalia & Monica are work associates . They all work at a consultancy company.
 
 ## Kate has the products sales of Nestle :
 
-##### KitKat : 34,456,432 US Dollars
-##### Nescafe : 14,106,132 US Dollars
-##### Maggi : 9,960,312 US Dollars
-##### Nido : 44,506,003 US Dollars
+ KitKat : 34,456,432 US Dollars
+  Nescafe : 14,106,132 US Dollars
+ Maggi : 9,960,312 US Dollars
+ Nido : 44,506,003 US Dollars
 
       
 
 ## Dalia has the products sales of Unilever :
 
-##### Lipton : 23,456,000 US Dollars
-##### Breyers : 1,235,891 US Dollars
-##### HellManns : 17,241,412 US Dollars
-##### Marmite : 11,715,324 US Dollars
+ Lipton : 23,456,000 US Dollars
+ Breyers : 1,235,891 US Dollars
+ HellManns : 17,241,412 US Dollars
+ Marmite : 11,715,324 US Dollars
       
 
 ## Monica has 2 tables containing the countries in which Unilever and Nestle sell the products:
