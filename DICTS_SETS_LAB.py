@@ -33,30 +33,30 @@ def more_product():
         print("They Are Equal!")
 
 
-def top_silling_for_nestle():
+def top_selling_for_nestle():
     max_product_price = 0
     max_product_name = ""
     for product , sales in nestle.items():
         if sales > max_product_price:
             max_product_price = sales
             max_product_name = product
-    print(f"The Top Saling Product For Nestle is: {max_product_name}\nSALES:{max_product_price}")
+    print(f"The Top Selling Product For Nestle is: {max_product_name}\nSALES:{max_product_price}")
 
-def top_silling_for_unilever():
+def top_selling_for_unilever():
     max_product_price = 0
     max_product_name = ""
     for product , sales in unilever.items():
         if sales > max_product_price:
             max_product_price = sales
             max_product_name = product
-    print(f"The Top Saling Product For Nestle is: {max_product_name}\nSALES:{max_product_price}")
+    print(f"The Top Selling Product For Nestle is: {max_product_name}\nSALES:{max_product_price}")
 
 
 nestle_data()
 unilever_data()
 more_product()
-top_silling_for_nestle()
-top_silling_for_unilever()
+top_selling_for_nestle()
+top_selling_for_unilever()
 
 print(unilever_cities | nestle_citite)  # print all the cities Unilever & Nestle sell their products in
 
