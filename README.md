@@ -2,12 +2,12 @@
 
 ### Kate, Dalia & Monica are work associates . They all work at a consultancy company.
 
-## Kate has the products sales of Nestle :
+##  Kate has the products has ales of Nestle :
 
-##### KitKat : 34,456,432 US Dollars
-##### Nescafe : 14,106,132 US Dollars
-##### Maggi : 9,960,312 US Dollars
-##### Nido : 44,506,003 US Dollars
+KitKat : 34,456,432 US Dollars
+Nescafe : 14,106,132 US Dollars
+Maggi : 9,960,312 US Dollars
+Nido : 44,506,003 US Dollars
 
       
 
